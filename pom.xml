@@ -132,7 +132,7 @@
 
 		<project.build.outputTimestamp>2025-04-25T11:19:01Z</project.build.outputTimestamp>
 
-		<javadoc.additionalJOption />
+		<javadoc.additionalJOption/>
 		<javadoc.jdk.apidocs.link>https://docs.oracle.com/en/java/javase/${java.specification.version}/docs/api/</javadoc.jdk.apidocs.link>
 
 		<maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
@@ -156,7 +156,7 @@
 		<error_prone_annotations.version>2.38.0</error_prone_annotations.version>
 		<forbiddenapis.version>3.9</forbiddenapis.version>
 		<jacoco.version>0.8.13</jacoco.version>
-		<jackson.version>2.14.3</jackson.version>
+		<jackson.version>2.19.0</jackson.version>
 		<jakarta.annotation-api.version>2.1.1</jakarta.annotation-api.version>
 		<jakarta.el.version>4.0.2</jakarta.el.version>
 		<jakarta.el-api.version>5.0.1</jakarta.el-api.version>
@@ -208,7 +208,7 @@
 		<maven-war-plugin.version>3.4.0</maven-war-plugin.version>
 		<resources-optimizer-maven-plugin.version>2.6.5</resources-optimizer-maven-plugin.version>
 
-		<osgi.dynamicimport.package />
+		<osgi.dynamicimport.package/>
 		<osgi.export.package>*</osgi.export.package>
 		<osgi.import.package>!java,!kotlin,*</osgi.import.package>
 	</properties>
@@ -966,7 +966,7 @@
 					</executions>
 					<configuration>
 						<rules>
-							<dependencyConvergence />
+							<dependencyConvergence/>
 							<compound implementation="com.github.ferstl.maven.pomenforcers.CompoundPedanticEnforcer">
 								<!-- Enforcers -->
 								<enforcers>POM_SECTION_ORDER,DEPENDENCY_MANAGEMENT_ORDER,DEPENDENCY_ORDER,DEPENDENCY_CONFIGURATION,PLUGIN_MANAGEMENT_ORDER,PLUGIN_CONFIGURATION</enforcers>
@@ -1192,7 +1192,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1205,7 +1205,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1218,7 +1218,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1231,7 +1231,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
