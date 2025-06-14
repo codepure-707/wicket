@@ -132,7 +132,7 @@
 
 		<project.build.outputTimestamp>2025-04-25T11:19:01Z</project.build.outputTimestamp>
 
-		<javadoc.additionalJOption />
+		<javadoc.additionalJOption/>
 		<javadoc.jdk.apidocs.link>https://docs.oracle.com/en/java/javase/${java.specification.version}/docs/api/</javadoc.jdk.apidocs.link>
 
 		<maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
@@ -179,7 +179,7 @@
 		<objenesis.version>3.4</objenesis.version>
 		<openjson.version>1.0.13</openjson.version>
 		<slf4j.version>2.0.17</slf4j.version>
-		<spring.version>6.2.6</spring.version>
+		<spring.version>6.2.8</spring.version>
 		<wagon-ssh-external.version>3.5.3</wagon-ssh-external.version>
 		<weld.version>4.0.3.Final</weld.version>
 		<velocity-engine-core.version>2.4.1</velocity-engine-core.version>
@@ -208,7 +208,7 @@
 		<maven-war-plugin.version>3.4.0</maven-war-plugin.version>
 		<resources-optimizer-maven-plugin.version>2.6.5</resources-optimizer-maven-plugin.version>
 
-		<osgi.dynamicimport.package />
+		<osgi.dynamicimport.package/>
 		<osgi.export.package>*</osgi.export.package>
 		<osgi.import.package>!java,!kotlin,*</osgi.import.package>
 	</properties>
@@ -966,7 +966,7 @@
 					</executions>
 					<configuration>
 						<rules>
-							<dependencyConvergence />
+							<dependencyConvergence/>
 							<compound implementation="com.github.ferstl.maven.pomenforcers.CompoundPedanticEnforcer">
 								<!-- Enforcers -->
 								<enforcers>POM_SECTION_ORDER,DEPENDENCY_MANAGEMENT_ORDER,DEPENDENCY_ORDER,DEPENDENCY_CONFIGURATION,PLUGIN_MANAGEMENT_ORDER,PLUGIN_CONFIGURATION</enforcers>
@@ -1192,7 +1192,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1205,7 +1205,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1218,7 +1218,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1231,7 +1231,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
